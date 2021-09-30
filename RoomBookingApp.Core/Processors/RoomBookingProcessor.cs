@@ -4,6 +4,7 @@ using RoomBookingApp.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections;
+using System.Linq;
 
 namespace RoomBookingApp.Core.Processors
 {
@@ -24,7 +25,16 @@ namespace RoomBookingApp.Core.Processors
                 throw new ArgumentNullException(nameof(bookingrequest));
             }
 
-            _roomBookingService.Save(CreateRoomBookingObject<RoomBooking>(bookingrequest));
+            var availableRooms = _roomBookingService.GetAvailableRooms(bookingrequest.Date);
+            if (availableRooms.Any())
+            {
+                var room = availableRooms.First();
+                var roombooking = CreateRoomBookingObject<RoomBooking>(bookingrequest);
+                roombooking.RoomId = room.id;
+                _roomBookingService.Save(roombooking);
+            }
+
+
 
             return CreateRoomBookingObject<RoomBookingResult>(bookingrequest);
         }
