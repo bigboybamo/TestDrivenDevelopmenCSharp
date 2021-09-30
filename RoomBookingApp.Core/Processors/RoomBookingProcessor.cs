@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
+using RoomBookingApp.Core.Enums;
 
 namespace RoomBookingApp.Core.Processors
 {
@@ -26,17 +27,24 @@ namespace RoomBookingApp.Core.Processors
             }
 
             var availableRooms = _roomBookingService.GetAvailableRooms(bookingrequest.Date);
+            var result = CreateRoomBookingObject<RoomBookingResult>(bookingrequest);
             if (availableRooms.Any())
             {
                 var room = availableRooms.First();
                 var roombooking = CreateRoomBookingObject<RoomBooking>(bookingrequest);
                 roombooking.RoomId = room.id;
                 _roomBookingService.Save(roombooking);
+
+                result.RoomBookingId = (int?)roombooking.Id;
+                result.Flag = BookingResultFlag.Success;
+            }
+            else
+            {
+                result.Flag = BookingResultFlag.Failure;
             }
 
 
-
-            return CreateRoomBookingObject<RoomBookingResult>(bookingrequest);
+            return result;
         }
         private TRoomBooking CreateRoomBookingObject<TRoomBooking>(RoomBookingrequest bookingrequest) where TRoomBooking : RoomBookingBase, new()
         {
