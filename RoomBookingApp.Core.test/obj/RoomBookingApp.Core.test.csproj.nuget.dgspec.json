@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[16.7.1, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
             "Shouldly": {
               "target": "Package",
               "version": "[4.0.3, )"

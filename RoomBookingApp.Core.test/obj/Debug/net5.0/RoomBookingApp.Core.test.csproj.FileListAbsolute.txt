@@ -212,3 +212,5 @@ C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\obj\Debug\n
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\obj\Debug\net5.0\RoomBookingApp.Core.test.genruntimeconfig.cache
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\RoomBookingApp.Core.dll
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\RoomBookingApp.Core.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Moq.dll
