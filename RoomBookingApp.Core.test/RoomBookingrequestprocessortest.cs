@@ -9,8 +9,8 @@ using RoomBookingApp.Core.Models;
 using RoomBookingApp.Core.Processors;
 using RoomBookingApp.Core.DataServices;
 using Moq;
-using RoomBookingApp.Core.Domain;
 using RoomBookingApp.Core.Enums;
+using RoomBookingApp.Domain;
 
 namespace RoomBookingApp.Core
 {
@@ -32,7 +32,7 @@ namespace RoomBookingApp.Core
                 Email = "test@test.com",
                 Date = new DateTime(2021, 09, 29)
             };
-            _availableRooms = new List<Room> { new Room() { id = 1 } };
+            _availableRooms = new List<Room> { new Room() { Id = 1 } };
             _roomBookingServiceMock = new Mock<IRoomBookingService>();
             _roomBookingServiceMock.Setup(x => x.GetAvailableRooms(_Request.Date))
                 .Returns(_availableRooms);
@@ -100,7 +100,7 @@ namespace RoomBookingApp.Core
             savedBooking.FullName.ShouldBe(_Request.FullName);
             savedBooking.Email.ShouldBe(_Request.Email);
             savedBooking.Date.ShouldBe(_Request.Date);
-            savedBooking.RoomId.ShouldBe(_availableRooms.First().id);
+            savedBooking.RoomId.ShouldBe(_availableRooms.First().Id);
         }
 
         [Fact]

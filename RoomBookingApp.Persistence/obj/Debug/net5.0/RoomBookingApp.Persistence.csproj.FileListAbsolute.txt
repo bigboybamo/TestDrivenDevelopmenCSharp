@@ -1,0 +1,17 @@
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Persistence.deps.json
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Persistence.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\ref\RoomBookingApp.Persistence.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Persistence.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.csprojAssemblyReference.cache
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.AssemblyInfo.cs
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\ref\RoomBookingApp.Persistence.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Core.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Domain.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Core.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\bin\Debug\net5.0\RoomBookingApp.Domain.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Persistence\obj\Debug\net5.0\RoomBookingApp.Persistence.csproj.CopyComplete

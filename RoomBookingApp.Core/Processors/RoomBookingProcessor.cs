@@ -1,11 +1,12 @@
 ﻿using RoomBookingApp.Core.DataServices;
-using RoomBookingApp.Core.Domain;
+using RoomBookingApp.Domain;
 using RoomBookingApp.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections;
 using System.Linq;
 using RoomBookingApp.Core.Enums;
+using RoomBookingApp.Domain.BaseModels;
 
 namespace RoomBookingApp.Core.Processors
 {
@@ -32,7 +33,7 @@ namespace RoomBookingApp.Core.Processors
             {
                 var room = availableRooms.First();
                 var roombooking = CreateRoomBookingObject<RoomBooking>(bookingrequest);
-                roombooking.RoomId = room.id;
+                roombooking.RoomId = room.Id;
                 _roomBookingService.Save(roombooking);
 
                 result.RoomBookingId = (int?)roombooking.Id;

@@ -1941,8 +1941,16 @@
       },
       "xunit.runner.visualstudio/2.4.3": {},
       "RoomBookingApp.Core/1.0.0": {
+        "dependencies": {
+          "RoomBookingApp.Domain": "1.0.0"
+        },
         "runtime": {
           "RoomBookingApp.Core.dll": {}
+        }
+      },
+      "RoomBookingApp.Domain/1.0.0": {
+        "runtime": {
+          "RoomBookingApp.Domain.dll": {}
         }
       }
     }
@@ -3053,6 +3061,11 @@
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
     "RoomBookingApp.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RoomBookingApp.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
