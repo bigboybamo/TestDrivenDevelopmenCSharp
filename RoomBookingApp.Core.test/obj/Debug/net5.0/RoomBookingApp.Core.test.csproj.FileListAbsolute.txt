@@ -216,3 +216,14 @@ C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\n
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Moq.dll
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\RoomBookingApp.Domain.dll
 C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\RoomBookingApp.Domain.pdb
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\VICTOR\source\repos\RoomBookingApp\RoomBookingApp.Core.test\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

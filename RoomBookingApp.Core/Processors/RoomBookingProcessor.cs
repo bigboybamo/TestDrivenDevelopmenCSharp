@@ -10,7 +10,7 @@ using RoomBookingApp.Domain.BaseModels;
 
 namespace RoomBookingApp.Core.Processors
 {
-    public class RoomBookingProcessor
+    public class RoomBookingProcessor : IRoomBookingProcessor
     {
 
         private readonly IRoomBookingService _roomBookingService;
